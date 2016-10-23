@@ -1,0 +1,166 @@
+.whole{
+    width: 100%;
+}
+.whole-header.container{
+    margin: 102px auto 84px auto;
+    position: relative;
+    z-index: 3;
+}
+.whole-header .header-logo.row{
+   margin: 0 auto;
+    padding: 0;
+}
+.whole-header .header-logo>div>div{
+   float: left;
+}
+.whole-header .header-logo .header-img{
+    padding: 0 16px 0 0;
+}
+.whole-header .header-logo .header-text{
+    padding: 0;
+}
+.whole-header .header-logo .header-text .text-left{
+    margin-bottom: 16px;
+    color: #d8261c;
+    font-family: "黑体";
+    font-size: 30px;
+    font-weight: bold;
+}
+.whole-header .header-logo .header-text .text-left1{
+    color: #d8261c;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    margin-left: 30px;
+    text-align: left;
+}
+.whole .whole-us.container-fluid {
+    padding: 0;
+}
+.whole .whole-us.container-fluid .us-dominant{
+    position: relative;
+}
+.whole .whole-us.container-fluid .us-dominant .dominant-img{
+    width: 100%;
+}
+.whole .whole-us.container-fluid .us-dominant img{
+    z-index: 1;
+    width: 100%;
+}
+.whole-us.container-fluid .us-dominant form{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.whole .whole-us.container-fluid .us-dominant form>div{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.whole .whole-us.container-fluid .us-dominant form .icon-img{
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #d8261c;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+}
+.whole .whole-us.container-fluid .us-dominant form .username,.password{
+    width: 340px;
+    height: 39px;
+    line-height: 39px;
+    outline: none;
+    border: 1px solid #d8261c;
+}
+.whole .whole-us.container-fluid .us-dominant form .jumping{
+    margin-bottom: 20px;
+}
+.whole .whole-us.container-fluid .us-dominant form .jumping input{
+    display: block;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    border: 0;
+    background-color: #de261c;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.whole .whole-us.container-fluid .us-dominant form .memory span{
+    float: right;
+    line-height: 20px;
+    display: block;
+}
+.whole .whole-us.container-fluid .us-dominant form .memory a{
+    float: right;
+    color: #8f8f8f;
+    display: block;
+    line-height: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.whole .whole-us.container-fluid .us-dominant .text-focus{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+.whole-us.container-fluid  div.err{
+    color: #d8261c;
+}
+.whole-us.container-fluid  div.err input[type='text'],
+.whole-us.container-fluid  div.err input[type='password']{
+    border:1px solid #d8261c;
+    color: #d8261c;
+}
+.whole-us.container-fluid  div.suc{
+    color: green;
+}
+.whole-us.container-fluid  div.suc input[type='text'],
+.whole-us.container-fluid  div.suc input[type='password']{
+    border:1px solid green !important;
+    color: green;
+}
+.whole .whole-bottom .bottom-text{
+    margin: 70px 0 22px 40px;
+    text-align: center;
+    color: #8f8f8f;
+}
+@media only screen and (min-width: 0px ) and (max-width: 767px){
+    .whole>div{width: 100%!important;}
+    .whole .whole-header .header-logo .header-img {width: 100%;text-align: center;}
+    .whole .whole-header .header-logo .header-text{width: 100%;margin: 16px 0 0 0;}
+    .whole .whole-header .header-logo .header-text>div{width: 100%;text-align: center;margin: 16px 0 0 0;}
+    .whole .whole-us.container-fluid .us-dominant form{position: static;width: 100%;margin-top: 20px;}
+    .whole .whole-us.container-fluid .us-dominant form>div{;width: 100%;margin-bottom:40px;}
+    .whole .whole-us.container-fluid .us-dominant form .username, .password{width: 90%}
+    .whole .whole-us.container-fluid .us-dominant form .jumping a{width:100%}
+    .whole .whole-us.container-fluid .us-dominant form .icon-img{width: 10%}
+    .whole .whole-bottom .bottom-text{margin-top: 160px;}
+}
+@media only screen and (min-width: 768px ){
+    .whole .whole-us.container-fluid .us-dominant form{left: 27%;top: 7%;}
+    .whole .whole-us.container-fluid .us-dominant form>div{margin-bottom: 13px;}
+    .whole .whole-us.container-fluid .us-dominant form{position:absolute;width: 400px;margin-top: 0px;}
+}
+@media only screen and (min-width: 998px ){
+    .whole .whole-us.container-fluid .us-dominant form{left: 35%;top: 15%;}
+    .whole .whole-us.container-fluid .us-dominant form>div{margin-bottom: 30px;}
+    .whole .whole-us.container-fluid .us-dominant form{position:absolute;width: 400px;margin-top: 0px;}
+}
+@media only screen and (min-width:1200px ){
+    .whole .whole-us.container-fluid .us-dominant form{left: 37%;top: 24%;}
+    .whole .whole-us.container-fluid .us-dominant form>div{margin-bottom: 30px;}
+    .whole .whole-us.container-fluid .us-dominant form{position:absolute;width: 400px;margin-top: 0px;}
+}
+@media only screen and (min-width:1600px ){
+    .whole .whole-us.container-fluid .us-dominant form{left: 40%;top: 24%;}
+    .whole .whole-us.container-fluid .us-dominant form>div{margin-bottom: 30px;}
+    .whole .whole-us.container-fluid .us-dominant form{position:absolute;width: 400px;margin-top: 0px;}
+}
+@media only screen and (min-width:1920px ){
+    .whole .whole-us.container-fluid .us-dominant form{left: 42%;top: 30%;}
+    .whole .whole-us.container-fluid .us-dominant form>div{margin-bottom: 40px;}
+    .whole .whole-us.container-fluid .us-dominant form{position:absolute;width: 400px;margin-top: 0px;}
+}

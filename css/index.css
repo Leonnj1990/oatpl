@@ -1,0 +1,774 @@
+/*取消掉bootstrap的默认padding值*/
+.header.container-fluid{
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 9;
+    background-color: #fff;
+    width: 100%;
+}
+/*取消掉bootstrap的默认padding值*/
+/*开头的红色矩形*/
+.header .header-rectangle{
+    width: 100%;
+    background-color: #d8261c;
+    height: 5px;
+}
+/*开头的红色矩形*/
+/*开头部分的左右padding35像素和取消掉bootstrap的默认margin值*/
+.header .header-structure.row{
+   padding: 0 60px 0 35px;
+   margin: 0;
+}
+/*开头部分的左右padding35像素和取消掉bootstrap的默认margin值*/
+/*开头部分下面的子元素都向左浮动*/
+.header .header-structure>div{
+    float: left;
+    padding: 0;
+}
+/*开头部分下面的子元素都向左浮动*/
+/*开头部分下的左边logo部分下的子元素向左浮动*/
+.header .header-structure .header-logo>div{
+    float: left;
+}
+/*开头部分下的左边logo部分下的子元素向左浮动*/
+/*logo*/
+.header .header-structure .header-logo .OA-logo{
+    line-height: 65px;
+    height: 65px;
+}
+.header .header-structure .header-logo .OA-logo>img{
+    line-height: 65px;
+    width: 125px;
+    height: 52px;
+}
+/*logo*/
+/*分割线*/
+.header .header-structure .header-logo .header-line{
+    line-height: 65px;
+    padding-left: 40px;
+    font-size: 25px;
+    color: #c4c4c4;
+}
+/*分割线*/
+/*相对分割线左内边距20px*/
+.header .header-structure .header-logo .header-system{
+    padding-left: 20px;
+}
+/*相对分割线左内边距20px*/
+.header .header-structure .header-logo .header-system .OA-system li{
+    float: left;
+    line-height: 65px;
+    color: #8f8f8f;
+}
+/*天网*/
+.header .header-structure .header-logo .header-system ul li.OA-skynet{
+     padding-right: 10px;
+    font-family: 微软雅黑;
+}
+/*天网*/
+/*搜索,邮件,工作计划样式*/
+.header .header-structure .header-logo .header-system ul li.into{
+     padding-right: 15px;
+     font-size: 35px;
+}
+/*搜索,邮件,工作计划样式*/
+/*搜索,邮件,工作计划鼠标滑过样式*/
+.header .header-structure .header-logo .header-system ul li.into:hover{
+     color: #d8261c;
+}
+/*搜索,邮件,工作计划鼠标滑过样式*/
+/*用户内容设置高*/
+.header .header-structure .header-user>.OA-user{
+    height: 65px;
+    line-height: 65px;
+}
+/*用户内容设置高*/
+/*用户内容垂直居中*/
+.header .header-structure .header-user>.OA-user>li{
+    line-height: 65px;
+    float: right;
+}
+/*用户内容垂直居中*/
+/*用户头像*/
+.header .header-structure .header-user>.OA-user>li.OA-audit{
+    font-size: 35px;
+    padding-right: 10px;
+}
+/*用户头像*/
+/*用户名称*/
+.header .header-structure .header-user>.OA-user>li.OA-name{
+    color: #373737;
+    font-family: 微软雅黑;
+    padding-right: 20px;
+}
+/*用户名称*/
+/*用户消息*/
+.header .header-structure .header-user>.OA-user>li.OA-message{
+    color: #8f8f8f;
+    font-size: 45px;
+    position: relative;
+    padding-right: 20px;
+}
+/*用户消息*/
+/*消息提示*/
+.header .header-structure .header-user>.OA-user>li.OA-message i{
+    font-size: 12px;
+    background-color: #ff7972;
+    color: #fff;
+    line-height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+    top:17px;
+    left:22px;
+}
+/*消息提示*/
+/*消息箭头*/
+.header .header-structure .header-user>.OA-user>li.OA-message .OA-arrow{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    font-size: 0;
+    z-index: 10;
+    position: absolute;
+    top: 51px;
+    left:14px;
+    display: none;
+    line-height: 0;
+}
+/*消息箭头*/
+/*消息框*/
+.header .header-structure .header-user>.OA-user>li.OA-message .OA-message_box{
+    width: 150px;
+    height: 300px;
+    border-radius: 4px;
+    position: absolute;
+    top: 58px;
+    z-index: 9;
+    left: -52px;
+    background-color: #fff;
+    display: none;
+    box-shadow:0 0 30px #c7c7c7;
+}
+/*消息框*/
+/*用户设置*/
+.header .header-structure .header-user>.OA-user>li.OA-SetUpThe{
+    color: #8f8f8f;
+    font-size: 40px;
+}
+/*用户设置*/
+/*手机端的菜单按钮*/
+.header .header-structure .header-user>.OA-user>li.OA-number{
+    display: none;
+    color: #8f8f8f;
+    font-size: 45px;
+}
+/*手机端的菜单按钮*/
+/*菜单*/
+.OA-menus{
+    float: left;
+    width: 204px;
+    height: 1086px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    z-index: 8;
+    background-color: #d8261c;
+    overflow: hidden;
+    padding: 0;
+}
+/*菜单*/
+/*宽100%*/
+.OA-menus .menus-part{
+    width: 100%;
+}
+/*宽100%*/
+/*设置 菜单的所有a标签*/
+.OA-menus .menus-part a{
+    color: #fff;
+    font-family: 微软雅黑;
+    text-decoration: none;
+}
+/*设置 菜单的所有a标签*/
+/*一级菜单  高32像素*/
+.OA-menus .menus-part .stair-menus{
+    width: 100%;
+    line-height: 32px;
+}
+/*一级菜单 高32像素*/
+/*一级菜单鼠标滑过加上#af251c這个背景*/
+.OA-menus .menus-part .stair-menus:hover{
+    background-color: #af251c;
+}
+/*一级菜单鼠标滑过加上#af251c這个背景*/
+/*一级菜单下面的子元素 成一排 垂直居中*/
+.OA-menus .menus-part .stair-menus>div{
+    float: left;
+    line-height: 32px;
+}
+/*一级菜单下面的子元素 成一排 垂直居中*/
+/*一级字体图标*/
+.OA-menus .menus-part .stair-menus>div.stair-icon{
+    font-size: 28px;
+    color: #fff;
+    padding-left: 35px;
+}
+/*一级字体图标*/
+/*一级菜单文本*/
+.OA-menus .menus-part .stair-menus>div.stair-content{
+    padding-left: 5px;
+}
+.OA-menus .menus-part .stair-menus>div.stair-content a{
+    font-size: 14px;
+}
+/*一级菜单文本*/
+/*一级菜单收起箭头*/
+.OA-menus .menus-part .stair-menus>div.OA-packup{
+    font-size: 16px;
+    padding-left: 30px;
+    color: #fff;
+    font-family: 微软雅黑;
+}
+/*一级菜单收起箭头*/
+/*一级菜单展开箭头*/
+.OA-menus .menus-part .stair-menus>div.OA-an{
+    font-size: 16px;
+    color: #fff;
+    padding-left: 30px;
+    display: none;
+}
+/*一级菜单展开箭头*/
+/*二级菜单的宽100%*/
+.OA-menus .menus-part .second-menus{
+    width: 100%;
+    display: none;
+}
+/*二级菜单的宽100%*/
+/*二级菜单的子元素宽100% 垂直居中*/
+.OA-menus .menus-part .second-menus>li{
+    width: 100%;
+    line-height: 32px;
+    background-color: #a11f17;
+}
+/*二级菜单的子元素宽100% 垂直居中*/
+/*鼠标经过时背景变成#af251c*/
+.OA-menus .menus-part .second-menus>li:hover{
+    background-color: #af251c;
+}
+/*鼠标经过时背景变成#af251c*/
+/*二级菜单的内容 浮动在一排 垂直居中*/
+.OA-menus .menus-part .second-menus>li>div{
+    float: left;
+    line-height: 32px;
+}
+/*二级菜单的内容 浮动在一排 垂直居中*/
+/*二级菜单的线条*/
+.OA-menus .menus-part .second-menus>li>div.second-line{
+    height: 21px;
+    color: #f6ff00;
+    padding-left: 56px;
+}
+/*二级菜单的线条*/
+/*二级菜单的文本*/
+.OA-menus .menus-part .second-menus>li>div.seconde-content{
+    padding-left: 6px;
+}
+/*二级菜单的文本*/
+/*二级菜单的收起箭头*/
+.OA-menus .menus-part .second-menus>li>div.OA-packup{
+    color: #fff;
+    font-family: 微软雅黑;
+    padding-left: 32px;
+    font-size: 16px;
+}
+/*二级菜单的收起箭头*/
+/*二级菜单的展开箭头*/
+.OA-menus .menus-part .second-menus>li>div.OA-an{
+    padding-left: 32px;
+    color: #fff;
+    display: none;
+}
+/*二级菜单的展开箭头*/
+/*三级菜单*/
+.OA-menus .menus-part .second-menus .three-menus{
+    width: 100%;
+    display: none;
+    line-height: 32px;
+}
+/*三级菜单*/
+.OA-menus .menus-part .second-menus .three-menus .three-part{
+    width: 100%;
+    line-height: 32px;
+    background-color: #b93128;
+}
+/*鼠标经过时背景变成#af251c*/
+.OA-menus .menus-part .second-menus .three-menus .three-part:hover{
+    background-color: #af251c;
+}
+/*鼠标经过时背景变成#af251c*/
+.OA-menus .menus-part .second-menus .three-menus .three-part>div{
+    float: left;
+}
+.OA-menus .menus-part .second-menus .three-menus .three-part>div.three-icon{
+    font-size: 24px;
+    color: #fff;
+    padding-left: 56px;
+    line-height: 32px;
+}
+.OA-menus .menus-part .second-menus .three-menus .three-part>div.three-content{
+    padding-left: 5px;
+    line-height: 32px;
+}
+/*OA内容*/
+.OA-matter{
+    padding: 0;
+    margin-top: 70px;
+    margin-left:204px;
+}
+/*OA内容*/
+/*OA结构*/
+.OA-matter .matter-part{
+    position: relative;
+    top: 70px;
+    left:0;
+}
+/*OA结构*/
+/*选项卡*/
+.OA-matter .matter-part .matter-tab{
+    z-index: 4;
+    background-color: #fff;
+    position: fixed;
+    top: 70px;
+    width: 88.8%;
+}
+/*选项卡*/
+/*取消Bootstrap的默认padding值*/
+.OA-matter .matter-part .matter-tab .tab-part{
+    padding: 0;
+}
+/*取消Bootstrap的默认padding值*/
+/*选项卡结构下面的行*/
+.OA-matter .matter-part .matter-tab .tab-part>.row{
+    margin: 0;
+    padding: 0;
+    box-shadow: 91px 4px 0 #f1f1f1;
+    position: relative;
+    height: 32px;
+    border-bottom: 0;
+}
+/*选项卡结构下面的行*/
+/*选项卡的左边*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left{
+    height: 32px;
+    margin-right: 145px;
+    z-index: 3;
+}
+/*选项卡的左边*/
+/*选项卡下面的div*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left>div{
+    float: left;
+    border: 1px solid #e9e9e9;
+    border-bottom: 0;
+    margin-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+}
+/*选项卡下面的div*/
+/*鼠标经过时的样式*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left>div:hover{
+    transition: border 2s;
+    border: 1px solid #373737;
+    border-bottom: 0;
+}
+/*鼠标经过时的样式*/
+/*首页*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left .homepage{
+    margin-left: 2px;
+    margin-right: 5px;
+}
+/*首页*/
+/*首页下的a标签*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left .homepage a{
+    color: #373737 !important;
+    padding: 0 33px!important;
+    float: left;
+}
+/*首页下的a标签*/
+/*选项卡下的所有标签*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left>div a{
+    color: #8f8f8f;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    padding: 0 10px 0 20px;
+    float: left;
+}
+/*选项卡下的所有标签*/
+/*鼠标放上去的样式*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left>div a:hover{
+    color: #373737;
+}
+/*鼠标放上去的样式*/
+/*选项卡的关闭按钮*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left i{
+    font-size: 12px ;
+    color: #e9e9e9;
+    padding: 3px 3px 0 0;
+    float: right;
+}
+/*选项卡的关闭按钮*/
+/*鼠标放上面的样式*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left i:hover{
+    color: #000000;
+}
+/*鼠标放上面的样式*/
+/*选项卡的有部分*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-right{
+    float: right;
+    padding-right: 30px;
+    padding-left: 0;
+    z-index: 9;
+}
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-right>p{
+    font-size: 28px;
+    color: #8f8f8f;
+    margin: 0 3px 0 0;
+    line-height: 32px;
+    border: 1px solid #e9e9e9;
+    float: right;
+}
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-right>p:hover{
+    transition: border 2s;
+    border: 1px solid #373737;
+    color: #373737;
+}
+/*日志内容*/
+.matter-descend .metter-journal{margin: 40px 30px 30px;padding: 0;font-family: "微软雅黑";}
+/*日志内容*/
+.matter-descend .metter-journal>.row{
+    padding: 0;
+    margin: 0;
+}
+.matter-descend .metter-journal>.row .menu-write{
+    float: left;
+    border: 1px solid  #e9e9e9;
+    cursor: pointer;
+    margin-right:3.71%;
+    padding: 0;
+    width: 17%;
+}
+.matter-descend .metter-journal>.row .menu-write .write-back{
+    width: 8.3rem;
+    height: 8.3rem;
+    /*i8不支持rem兼容i8*/
+    width: 100px\0;
+    height: 100px\0;
+    background-color: #d8261c;
+    margin: 25px auto 20px auto;
+}
+.matter-descend .metter-journal>.row .menu-write .write-back  .write-img{
+    font-size: 6rem;
+    /*i8不支持rem兼容i8*/
+    font-size: 60px\0;
+    color: #fff;
+    text-align: center;
+    line-height: 8.3rem;
+    line-height: 100px\0;
+}
+.matter-descend .metter-journal>.row .menu-write .write-text{
+    text-align: center;
+    margin: 0 auto;
+}
+.matter-descend .metter-journal>.row .menu-write .write-text>div{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.matter-descend .metter-journal>.row .menu-write .write-text .version{
+    color: #ff7972;
+    text-align: center;
+}
+.matter-descend .metter-journal>.row .menu-write .write-text .version-1{color: #8f8f8f;}
+.matter-descend .metter-journal>.row .menu-write .write-back ._ff7972{color:#ff7972;}
+/*取消Bootstrap的padding值*/
+.matter-descend .metter-statistics{
+    padding: 0;
+}
+/*取消Bootstrap的padding值*/
+/*取消Bootstrap的margin值*/
+.matter-descend .metter-statistics>.row{
+    margin: 0;
+}
+/*取消Bootstrap的margin值*/
+.matter-descend .metter-statistics>.row .statistics-results{
+    float: left;
+    border: 30px  solid #e9e9e9;
+    opacity: 0.8;
+    padding: 0;
+}
+.matter-descend .metter-statistics>.row  .statistics-title{
+    width: 100%;
+    height: 39px;
+    border: 1px solid #e9e9e9;
+    border-left: 0;
+    border-right: 0;
+}
+.matter-descend .metter-statistics>.row  .statistics-title>div{
+    float: left;
+    line-height: 39px;
+}
+.matter-descend .metter-statistics>.row  .statistics-title .OA-ranking
+,.matter-descend .metter-statistics>.row  .statistics-title .OA-calendar
+{
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+}
+.matter-descend .metter-statistics>.row  .statistics-title .title-content{
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+    color: #373737;
+}
+.matter-descend .metter-statistics>.row  .statistics-title .statistics-data{
+    color: #999;
+}
+.matter-descend .metter-statistics>.row .statistics-attendance{
+    float: left;
+    border: 30px  solid #e9e9e9;
+    opacity: 0.8;
+    border-left:0 ;
+    padding: 0;
+}
+/*取消Bootstrap默认的padding和margin值*/
+.matter-descend .metter-details{
+    padding: 0;
+    margin: 0 0 -14px 0 ;
+    font-family: "微软雅黑";
+}
+/*取消Bootstrap默认的padding和margin值*/
+/*取消Bootstrap默认的margin值*/
+.matter-descend .metter-details>.row{
+    margin: 0;
+}
+/*取消Bootstrap默认的margin值*/
+/*取消Bootstrap默认的padding和margin值*/
+.matter-descend .metter-details>.row>div{
+    padding: 0;
+    margin: 0;
+}
+/*取消Bootstrap默认的padding和margin值*/
+.matter-descend .metter-details .notice-details,.matter-descend .metter-details .file-details{
+    opacity: 0.8;
+    border: 30px solid #e9e9e9;
+    border-top: 0;
+    float: left;
+    padding: 0;
+}
+.matter-descend .metter-details .file-details{
+    border-left: 0;
+}
+.matter-descend .metter-details .work-details{
+    opacity: 0.8;
+    border-bottom: 30px solid #e9e9e9;
+    float: left;
+    border-right: 30px solid #e9e9e9;
+    padding: 0;
+}
+.matter-descend .metter-details .work-details .length>div{
+    float: left;
+}
+.matter-descend .metter-details .notice-title
+,.matter-descend .work-details .work-title
+,.matter-descend .file-details .file-title{
+    border: 1px solid #e9e9e9;
+    border-right: 0;
+    border-left: 0;
+}
+.matter-descend .work-details .work-title
+,.matter-descend .file-details .file-title{
+    padding-right: 0;
+}
+.matter-descend .metter-details .notice-title>div
+,.matter-descend .work-details .work-title>div
+,.matter-descend .file-details .file-title>div{
+    height: 40px;
+    line-height: 40px;
+}
+.content1,.content2{
+    display: none;
+}
+.matter-descend .metter-details .OA-news
+,.matter-descend .metter-details .OA-plan
+,.matter-descend .metter-details .OA-file
+{
+    font-size: 40px;
+    color: #d8261c;
+}
+.matter-descend .metter-details .OA-notice{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #373737;
+}
+.matter-descend .metter-details .Article5{
+    color: #d8261c;
+    padding-right: 10px;
+}
+.matter-descend .metter-details .OA-NewMessage{
+    color: #d8261c;
+    font-size: 40px;
+    border-left: 1px solid #e9e9e9;
+}
+.matter-descend .metter-details .notice-content
+,.matter-descend .metter-details .work-content
+,.matter-descend .metter-details .file-content{
+    line-height: 45px;
+    color: #8f8f8f;
+}
+.matter-descend .metter-details  .things{
+    float: left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.matter-descend .metter-details .time{
+    float: right;
+    text-align: center;
+}
+.matter-descend .metter-details .time>div{
+    float: right;
+    line-height: 45px;
+}
+.matter-descend .metter-details .time .OA-selected{
+    font-size: 1.4rem;
+    margin-right: 10px;
+    line-height: 45px;
+    color: #d8261c;
+}
+.matter-descend .notice-content>div
+,.matter-descend .work-content>div
+,.matter-descend .file-content>div{
+    height: 45px;
+    line-height: 45px;
+}
+.matter-descend .length>div{
+    float: left;
+    line-height: 40px;
+}
+@media (min-width: 991px) {
+    .OA-matter .matter-part .matter-tab{width: 81%}
+}
+@media (min-width: 1114px) {
+    .OA-matter .matter-part .matter-tab{width: 82.8%}
+}
+@media (min-width: 1214px) {
+    .OA-matter .matter-part .matter-tab{width: 84.1%}
+}
+@media (min-width: 1300px) {
+    .OA-matter .matter-part .matter-tab{width: 85%}
+}
+@media (min-width: 1400px) {
+    .OA-matter .matter-part .matter-tab{width: 86%}
+}
+@media (min-width: 1500px) {
+    .OA-matter .matter-part .matter-tab{width: 87%}
+}
+@media (min-width: 1600px) {
+    .OA-matter .matter-part .matter-tab{width: 88%}
+}
+@media (min-width: 1720px) {
+    .OA-matter .matter-part .matter-tab{width: 88.7%}
+}
+@media (min-width: 1830px) {
+    .OA-matter .matter-part .matter-tab{width: 89.2%}
+}
+@media (min-width:2042px) {
+    .OA-matter .matter-part .matter-tab{width: 90.7%}
+}
+@media (min-width:2213px) {
+    .OA-matter .matter-part .matter-tab{width: 91.5%}
+}
+@media (min-width:2411px) {
+    .OA-matter .matter-part .matter-tab{width: 92%}
+}
+@media (min-width:2578px) {
+    .OA-matter .matter-part .matter-tab{width: 92.5%}
+}
+@media (min-width:2726px) {
+    .OA-matter .matter-part .matter-tab{width: 93%}
+}
+
+@media (max-width:1600px){
+    /*当屏幕小于1600时  OA内容工作计划的字体图标消失*/
+    .length>div:first-child{display: none;}
+    .length>div:last-child{border-left: 1px solid #e9e9e9;}
+    .length .center{padding: 0 6px;}
+    /*当屏幕小于1600时  OA内容工作计划的字体图标消失*/
+}
+@media (max-width: 1520px) {
+    .matter-descend .metter-journal>.row .menu-write .write-text .version-1{display: none;}
+}
+@media (max-width:1433px){
+    .work-details .OA-plan,.work-details .OA-notice{display: none;}
+    .file-details .OA-file,.file-details .OA-notice{display: none;}
+    .length{width: 33.33%;text-align: center}
+    .work-details .work-title,.file-details .file-title{padding: 0;margin: 0;}
+    .matter-descend .metter-details .work-details .length>div{float: none;text-align: center;}
+}
+@media only screen and (min-width: 991px) and (max-width: 1270px){
+    .things{width: 100%!important;}
+    .time{display: none;}
+}
+@media (max-width: 1058px){
+    .width>.center{padding: 0;!important;}
+    .header .header-structure .header-logo .header-system ul li.into{display: none;}
+    .OA-name{display: none;}
+}
+@media (min-width:991px){
+    .OA-menus{display: block;}
+}
+@media (max-width:991px){
+    .matter-descend .metter-statistics>.row .statistics-attendance{  border-top: 0;  border-left: 30px solid #e9e9e9;  border-right: 30px solid #e9e9e9;  border-bottom: 30px solid #e9e9e9;  }
+    .work-details{  border-left: 30px solid #e9e9e9;  border-right: 30px solid #e9e9e9;  }
+    .matter-descend .metter-details .notice-details,.matter-descend .metter-details .file-details{border-left:30px solid #e9e9e9}
+    .length{width: auto;text-align: center;}
+    .length .center{padding: 0 15px;}
+    .work-details .OA-plan,.work-details .OA-notice{display: block;}
+    .file-details .OA-file,.file-details .OA-notice{display: block;}
+    .OA-matter{width: 100%;margin-left: 0;}
+    .OA-menus{display: none;;height: auto;top:104px}
+    .OA-menus .stair-menus{margin-top: 0;}
+    .OA-message,.header .OA-SetUpThe{display: none;!important;}
+    .header .header-structure .header-user>.OA-user>li.OA-number{display: block;}
+    .matter-tab{width: 100%;left: 0;}
+    .header .header-structure.row{padding-right: 35px;}
+}
+@media (max-width: 767px) {
+    .width .center{padding: 0 16px}
+    .matter-descend .metter-journal>.row .menu-write{margin: 0;}
+    .matter-descend .metter-journal>.row .menu-redact{width: 50%;}
+    .matter-descend .metter-journal>.row .menu-review{width: 50%;}
+    .matter-descend .metter-journal>.row .menu-workflow{width: 33.3%}
+    .matter-descend .metter-journal>.row .menu-approve{width: 33.3%}
+    .matter-descend .metter-journal>.row .menu-notation{width: 33.3%}
+    .header .header-structure .header-logo .header-line,.header .header-structure .header-logo .header-system{display: none;}
+}
+@media only screen and (max-width: 435px){
+    .statistics-menu{display: none;}
+    .work-details .OA-plan,.work-details .OA-notice{display: none;}
+    .file-details .OA-file,.file-details .OA-notice{display: none;}
+    .length{width: 33.33%;text-align: center}
+    .menu-up .up-tow .width .center{float:none;text-align: center}
+    .things{width: 100%;padding: 0;!important;}
+    .time{display: none;}
+    .matter-descend .metter-journal>.row .menu-write{width: 100%;}
+}

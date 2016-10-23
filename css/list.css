@@ -1,0 +1,800 @@
+/*取消掉bootstrap的默认padding值*/
+.header.container-fluid{
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 9;
+    background-color: #fff;
+    width: 100%;
+}
+#example .sorting,#example .sorting_asc{
+    border: 1px solid #c4c4c4;
+    border-right: 0;
+    text-align: center;
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    height: 24px;
+    margin-right: 20px;
+}
+#example .sorting_asc,#example .sorting{
+    font-family: 微软雅黑;!important;
+    font-size: 14px;
+}
+#example .even,#example .odd{
+    font-family: 微软雅黑;!important;
+    font-size: 12px;
+}
+/*取消掉bootstrap的默认padding值*/
+/*开头的红色矩形*/
+.header .header-rectangle{
+    width: 100%;
+    background-color: #d8261c;
+    height: 5px;
+}
+/*开头的红色矩形*/
+/*开头部分的左右padding35像素和取消掉bootstrap的默认margin值*/
+.header .header-structure.row{
+    padding: 0 60px 0 35px;
+    margin: 0;
+}
+/*开头部分的左右padding35像素和取消掉bootstrap的默认margin值*/
+/*开头部分下面的子元素都向左浮动*/
+.header .header-structure>div{
+    float: left;
+    padding: 0;
+    height: 65px;
+}
+/*开头部分下面的子元素都向左浮动*/
+/*开头部分下的左边logo部分下的子元素向左浮动*/
+.header .header-structure .header-logo>div{
+    float: left;
+    line-height: 65px;
+}
+/*开头部分下的左边logo部分下的子元素向左浮动*/
+/*logo*/
+.header .header-structure .header-logo .OA-logo{
+    line-height: 65px;
+    height: 65px;
+}
+.header .header-structure .header-logo .OA-logo>img{
+    line-height: 65px;
+    width: 125px;
+    height: 52px;
+}
+/*logo*/
+/*分割线*/
+.header .header-structure .header-logo .header-line{
+    line-height: 65px;
+    padding-left: 40px;
+    font-size: 25px;
+    color: #c4c4c4;
+}
+/*分割线*/
+/*相对分割线左内边距20px*/
+.header .header-structure .header-logo .header-system{
+    padding-left: 20px;
+}
+/*相对分割线左内边距20px*/
+.header .header-structure .header-logo .header-system .OA-system li{
+    float: left;
+    line-height: 65px;
+    color: #8f8f8f;
+}
+/*天网*/
+.header .header-structure .header-logo .header-system ul li.OA-skynet{
+    padding-right: 10px;
+    font-family: 微软雅黑;
+}
+/*天网*/
+/*搜索,邮件,工作计划样式*/
+.header .header-structure .header-logo .header-system ul li.into{
+    padding-right: 15px;
+    font-size: 35px;
+}
+/*搜索,邮件,工作计划样式*/
+/*搜索,邮件,工作计划鼠标滑过样式*/
+.header .header-structure .header-logo .header-system ul li.into:hover{
+    color: #d8261c;
+}
+/*搜索,邮件,工作计划鼠标滑过样式*/
+/*用户内容设置高*/
+.header .header-structure .header-user>.OA-user{
+    height: 65px;
+    line-height: 65px;
+}
+/*用户内容设置高*/
+/*用户内容垂直居中*/
+.header .header-structure .header-user>.OA-user>li{
+    line-height: 65px;
+    float: right;
+}
+/*用户内容垂直居中*/
+/*用户头像*/
+.header .header-structure .header-user>.OA-user>li.OA-audit{
+    font-size: 35px;
+    padding-right: 10px;
+}
+/*用户头像*/
+/*用户名称*/
+.header .header-structure .header-user>.OA-user>li.OA-name{
+    color: #373737;
+    font-family: 微软雅黑;
+    padding-right: 20px;
+}
+/*用户名称*/
+/*用户消息*/
+.header .header-structure .header-user>.OA-user>li.OA-message{
+    color: #8f8f8f;
+    font-size: 45px;
+    position: relative;
+    padding-right: 20px;
+}
+/*用户消息*/
+/*消息提示*/
+.header .header-structure .header-user>.OA-user>li.OA-message i{
+    font-size: 12px;
+    background-color: #ff7972;
+    color: #fff;
+    line-height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+    top:17px;
+    left:22px;
+}
+/*消息提示*/
+/*消息箭头*/
+.header .header-structure .header-user>.OA-user>li.OA-message .OA-arrow{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    font-size: 0;
+    z-index: 10;
+    position: absolute;
+    top: 51px;
+    left:14px;
+    display: none;
+    line-height: 0;
+}
+/*消息箭头*/
+/*消息框*/
+.header .header-structure .header-user>.OA-user>li.OA-message .OA-message_box{
+    width: 150px;
+    height: 300px;
+    border-radius: 4px;
+    position: absolute;
+    top: 58px;
+    z-index: 9;
+    left: -52px;
+    background-color: #fff;
+    display: none;
+    box-shadow:0 0 30px #c7c7c7;
+}
+/*消息框*/
+/*用户设置*/
+.header .header-structure .header-user>.OA-user>li.OA-SetUpThe{
+    color: #8f8f8f;
+    font-size: 40px;
+}
+/*用户设置*/
+/*手机端的菜单按钮*/
+.header .header-structure .header-user>.OA-user>li.OA-number{
+    display: none;
+    color: #8f8f8f;
+    font-size: 45px;
+}
+/*手机端的菜单按钮*/
+/*菜单*/
+.OA-menus{
+    float: left;
+    width: 204px;
+    height: 1086px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    z-index: 8;
+    background-color: #d8261c;
+    overflow: hidden;
+    padding: 0;
+}
+/*菜单*/
+/*宽100%*/
+.OA-menus .menus-part{
+    width: 100%;
+}
+/*宽100%*/
+/*设置 菜单的所有a标签*/
+.OA-menus .menus-part a{
+    color: #fff;
+    font-family: 微软雅黑;
+    text-decoration: none;
+}
+/*设置 菜单的所有a标签*/
+/*一级菜单  高32像素*/
+.OA-menus .menus-part .stair-menus{
+    width: 100%;
+    line-height: 32px;
+}
+.OA-menus .menus-part .stair-menus:first-child{
+    margin-top: 30px;
+}
+/*一级菜单 高32像素*/
+/*一级菜单鼠标滑过加上#af251c這个背景*/
+.OA-menus .menus-part .stair-menus:hover{
+    background-color: #af251c;
+}
+/*一级菜单鼠标滑过加上#af251c這个背景*/
+/*一级菜单下面的子元素 成一排 垂直居中*/
+.OA-menus .menus-part .stair-menus>div{
+    float: left;
+    line-height: 32px;
+}
+/*一级菜单下面的子元素 成一排 垂直居中*/
+/*一级字体图标*/
+.OA-menus .menus-part .stair-menus>div.stair-icon{
+    font-size: 28px;
+    color: #fff;
+    padding-left: 35px;
+}
+/*一级字体图标*/
+/*一级菜单文本*/
+.OA-menus .menus-part .stair-menus>div.stair-content{
+    padding-left: 5px;
+}
+.OA-menus .menus-part .stair-menus>div.stair-content a{
+    font-size: 14px;
+}
+/*一级菜单文本*/
+/*一级菜单收起箭头*/
+.OA-menus .menus-part .stair-menus>div.OA-packup{
+    font-size: 16px;
+    padding-left: 30px;
+    color: #fff;
+    font-family: 微软雅黑;
+}
+/*一级菜单收起箭头*/
+/*一级菜单展开箭头*/
+.OA-menus .menus-part .stair-menus>div.OA-an{
+    font-size: 16px;
+    color: #fff;
+    padding-left: 30px;
+    display: none;
+}
+/*一级菜单展开箭头*/
+/*二级菜单的宽100%*/
+.OA-menus .menus-part .second-menus{
+    width: 100%;
+    display: none;
+}
+/*二级菜单的宽100%*/
+/*二级菜单的子元素宽100% 垂直居中*/
+.OA-menus .menus-part .second-menus>li{
+    width: 100%;
+    line-height: 32px;
+    background-color: #a11f17;
+}
+/*二级菜单的子元素宽100% 垂直居中*/
+/*鼠标经过时背景变成#af251c*/
+.OA-menus .menus-part .second-menus>li:hover{
+    background-color: #af251c;
+}
+/*鼠标经过时背景变成#af251c*/
+/*二级菜单的内容 浮动在一排 垂直居中*/
+.OA-menus .menus-part .second-menus>li>div{
+    float: left;
+    line-height: 32px;
+}
+/*二级菜单的内容 浮动在一排 垂直居中*/
+/*二级菜单的线条*/
+.OA-menus .menus-part .second-menus>li>div.second-line{
+    height: 21px;
+    color: #f6ff00;
+    padding-left: 56px;
+}
+/*二级菜单的线条*/
+/*二级菜单的文本*/
+.OA-menus .menus-part .second-menus>li>div.seconde-content{
+    padding-left: 6px;
+}
+/*二级菜单的文本*/
+/*二级菜单的收起箭头*/
+.OA-menus .menus-part .second-menus>li>div.OA-packup{
+    color: #fff;
+    font-family: 微软雅黑;
+    padding-left: 32px;
+    font-size: 16px;
+}
+/*二级菜单的收起箭头*/
+/*二级菜单的展开箭头*/
+.OA-menus .menus-part .second-menus>li>div.OA-an{
+    padding-left: 32px;
+    color: #fff;
+    display: none;
+}
+/*二级菜单的展开箭头*/
+/*三级菜单*/
+.OA-menus .menus-part .second-menus .three-menus{
+    width: 100%;
+    display: none;
+}
+/*三级菜单*/
+.OA-menus .menus-part .second-menus .three-menus .three-part{
+    width: 100%;
+    line-height: 32px;
+    background-color: #b93128;
+}
+/*鼠标经过时背景变成#af251c*/
+.OA-menus .menus-part .second-menus .three-menus .three-part:hover{
+    background-color: #af251c;
+}
+/*鼠标经过时背景变成#af251c*/
+.OA-menus .menus-part .second-menus .three-menus .three-part>div{
+    float: left;
+}
+.OA-menus .menus-part .second-menus .three-menus .three-part>div.three-icon{
+    font-size: 24px;
+    color: #fff;
+    padding-left: 56px;
+    line-height: 32px;
+}
+.OA-menus .menus-part .second-menus .three-menus .three-part>div.three-content{
+    padding-left: 5px;
+    line-height: 32px;
+}
+/*OA内容*/
+.OA-matter{
+    padding: 0;
+    margin-top: 70px;
+    margin-left:204px;
+}
+/*OA内容*/
+/*OA结构*/
+.OA-matter .matter-part{
+    position: relative;
+    top: 70px;
+    left:0;
+}
+/*OA结构*/
+/*选项卡*/
+.OA-matter .matter-part .matter-tab{
+    z-index: 4;
+    background-color: #fff;
+    position: fixed;
+    top: 70px;
+    width: 88.8%\0;
+}
+/*选项卡*/
+/*取消Bootstrap的默认padding值*/
+.OA-matter .matter-part .matter-tab .tab-part{
+    padding: 0;
+}
+/*取消Bootstrap的默认padding值*/
+/*选项卡结构下面的行*/
+.OA-matter .matter-part .matter-tab .tab-part>.row{
+    margin: 0;
+    padding: 0;
+    box-shadow: 91px 4px 0 #f1f1f1;
+    position: relative;
+    height: 32px;
+    border-bottom: 0;
+}
+/*选项卡结构下面的行*/
+/*选项卡的左边*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left{
+    height: 32px;
+    margin-right: 145px;
+    z-index: 3;
+}
+/*选项卡的左边*/
+/*选项卡下面的div*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left>div{
+    float: left;
+    border: 1px solid #e9e9e9;
+    border-bottom: 0;
+    margin-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+}
+/*选项卡下面的div*/
+/*鼠标经过时的样式*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left>div:hover{
+    transition: border 2s;
+    border: 1px solid #373737;
+    border-bottom: 0;
+}
+/*鼠标经过时的样式*/
+/*首页*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left .homepage{
+    margin-left: 2px;
+    margin-right: 5px;
+}
+/*首页*/
+/*首页下的a标签*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left .homepage a{
+    color: #373737 !important;
+    padding: 0 33px!important;
+    float: left;
+}
+/*首页下的a标签*/
+/*选项卡下的所有标签*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left>div a{
+    color: #8f8f8f;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    padding: 0 10px 0 20px;
+    float: left;
+}
+/*选项卡下的所有标签*/
+/*鼠标放上去的样式*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left>div a:hover{
+    color: #373737;
+}
+/*鼠标放上去的样式*/
+/*选项卡的关闭按钮*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left i{
+    font-size: 12px ;
+    color: #e9e9e9;
+    padding: 3px 3px 0 0;
+    float: right;
+}
+/*选项卡的关闭按钮*/
+/*鼠标放上面的样式*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-left i:hover{
+    color: #000000;
+}
+/*鼠标放上面的样式*/
+/*选项卡的有部分*/
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-right{
+    float: right;
+    padding-right: 30px;
+    padding-left: 0;
+    z-index: 9;
+}
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-right>p{
+    font-size: 28px;
+    color: #8f8f8f;
+    margin: 0 3px 0 0;
+    line-height: 32px;
+    border: 1px solid #e9e9e9;
+    float: right;
+}
+.OA-matter .matter-part .matter-tab .tab-part>.row>.tab-right>p:hover{
+    transition: border 2s;
+    border: 1px solid #373737;
+    color: #373737;
+}
+.revamp.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.revamp .revamp-one.row{
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #c4c4c4;
+}
+.revamp .revamp-one .revamp-left{
+    height: 40px;
+    border-bottom: 20px;
+    padding-left: 45px;
+}
+.revamp .revamp-one .revamp-left>div>a{
+    color: #373737;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    padding-bottom: 21px;
+    border-bottom: 2px solid #d8261c;
+    text-decoration: none;
+}
+.revamp .revamp-one .revamp-right{
+    padding-right: 45px;
+}
+.revamp .revamp-one .revamp-right>div{
+    float: right;
+    line-height: 40px;
+    font-size: 30px;
+}
+.revamp .revamp-one .revamp-right .OA-search{
+    color: #d8261c;
+    margin-right: 25px;
+}
+.revamp .revamp-one .revamp-right .OA-add{
+    color: #8f8f8f;
+    margin-right: 25px;
+}
+.revamp .revamp-one .revamp-right .OA-writing{
+    font-weight: bold;
+    color: #8f8f8f;
+    font-size: 32px;
+}
+.revamp .presentation{
+    padding: 15px 45px;
+    color: #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.revamp  .information{
+    margin-top: 30px;
+}
+.revamp  .information{
+    padding: 0  45px;
+}
+.revamp  .information .heading {
+    line-height: 52px;
+    border: 1px solid #e9e9e9;
+    padding-left: 48px;
+    font-size: 20px;
+    color: #b93128;
+    font-family: "Microsoft YaHei";
+    border-bottom: 0;
+}
+.information>div{
+    padding: 0;
+}
+.information-icon>div{
+    border: 1px solid #e9e9e9;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    float: left;
+}
+.information-icon .icon-text{
+    text-align: center;
+    color: #686868;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 0;
+    font-family: "Microsoft YaHei";
+}
+.information-icon .icon-img{
+    line-height: 30px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.revamp .information-left{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.revamps .information-left .information-icon .icon-img>div{
+    width: 38px;
+    height: 38px;
+    margin: 6px 0 6px 65px;
+    border: 1px solid #e9e9e9;
+}
+.revamp .information-right{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+}
+.information-icon .icon-img>div>img{
+    width: 100%;
+    height: 100%;
+}
+.information-icon .number-text{
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    font-family: 微软雅黑;
+}
+.information-icon .number-text input{
+    border: 0;
+    height: 37px;
+    line-height: 37px;
+    color: #dfdfdf;
+    margin: 6px 0 6px 65px;
+    border-bottom: 0;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0;
+    outline: none;
+}
+.information-icon .number-text select{
+    margin-left: 65px;
+}
+.information-icon .number-text input:hover{
+    border: 1px;
+    box-shadow: 0px 0px 10px #d8261c;
+}
+.information-icon .number-text textarea{
+    border: 0;
+    height: 37px;
+    line-height: 37px;
+    color: #dfdfdf;
+    margin: 6px 0 6px 65px;
+    border-bottom: 0;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0;
+}
+.information form>div{
+    padding: 0;
+}
+.information{
+    margin-bottom: 30px;
+}
+ .information-icon .icon-head{
+    border-bottom: 0;
+     height: 300px;
+    line-height: 300px;
+}
+ .information-icon .icon-bc{
+    border-bottom: 0;
+    padding: 32px 0 54px 10%;
+}
+ .information-icon .icon-bc>.picture{
+    float: left;
+    border: 1px solid #e9e9e9;
+    width: 216px;
+     height: 216px;
+     margin-right: 30px;
+}
+.information-icon .icon-bc img{
+    width: 100%;
+    height:100%;
+    padding: 10px;
+}
+ .information-icon .icon-bc>.from{
+    float: left;
+}
+ .information-icon .icon-bc>.from>div{
+    border: 1px solid #e9e9e9;
+    text-align: center;
+     background-color: #fafafa;
+     width: 118px;
+     height: 36px;
+    color: #a8a8a8;
+    margin-bottom: 30px;
+}
+ .information form .resets{
+    float: right;
+    width: 104px;
+    line-height: 24px;
+    border: 0;
+    margin-right: 12px;
+    outline: none;
+    font-family: 微软雅黑;
+}
+ .information form .submit{
+    padding: 0;
+    width: 104px;
+    line-height: 24px;
+    background-color: #d8261c;
+    color: #fff;
+    border: 0;
+    margin-left: 12px;
+    outline: none;
+     font-family: 微软雅黑;
+}
+.revamp  .flavoured .flavoureds .flavoured{
+    margin-top: 30px;
+}
+.queens.container-fluid{
+    padding: 0 45px;
+    margin-top: 30px;
+}
+.queens>div>div{
+    padding: 0;
+}
+.queens .queens-heading{
+    border: 1px solid #c4c4c4;
+    line-height: 42px;
+    color: #404040;
+    text-align: center;
+    border-right: 0;
+}
+.queens .data{
+    border: 1px solid #c4c4c4;
+    line-height: 36px;
+    height: 36px;
+    border-top: 0;
+    color: #909090;
+    padding-left:15px;
+    border-right: 0;
+}
+.queens .handle{
+    border-right: 1px solid #c4c4c4;
+}
+.queue .presentation{
+    margin-bottom: 30px;!important;
+}
+@media (min-width: 991px) {
+    .OA-matter .matter-part .matter-tab{width: 81%}
+}
+@media (min-width: 1114px) {
+    .OA-matter .matter-part .matter-tab{width: 82.8%}
+}
+@media (min-width: 1214px) {
+    .OA-matter .matter-part .matter-tab{width: 84.1%}
+}
+@media (min-width: 1300px) {
+    .OA-matter .matter-part .matter-tab{width: 85%}
+}
+@media (min-width: 1400px) {
+    .OA-matter .matter-part .matter-tab{width: 86%}
+}
+@media (min-width: 1500px) {
+    .OA-matter .matter-part .matter-tab{width: 87%}
+}
+@media (min-width: 1600px) {
+    .OA-matter .matter-part .matter-tab{width: 88%}
+}
+@media (min-width: 1720px) {
+    .OA-matter .matter-part .matter-tab{width: 88.7%}
+}
+@media (min-width: 1830px) {
+    .OA-matter .matter-part .matter-tab{width: 89.2%}
+}
+@media (min-width:2042px) {
+    .OA-matter .matter-part .matter-tab{width: 90.7%}
+}
+@media (min-width:2213px) {
+    .OA-matter .matter-part .matter-tab{width: 91.5%}
+}
+@media (min-width:2411px) {
+    .OA-matter .matter-part .matter-tab{width: 92%}
+}
+@media (min-width:2578px) {
+    .OA-matter .matter-part .matter-tab{width: 92.5%}
+}
+@media (min-width:2726px) {
+    .OA-matter .matter-part .matter-tab{width: 93%}
+}
+@media (max-width: 1058px){
+    .header .header-structure .header-logo .header-system ul li.into{display: none;}
+    .OA-name{display: none;}
+}
+@media (min-width:991px){
+    .OA-menus{display: block;}
+}
+@media (max-width:1440px){
+    .information-icon .icon-bc>.from>div{margin-bottom: 0;float: left;width: 108px;margin-top: 5px;}
+    .information-icon .icon-bc{padding-bottom: 0;}
+}
+@media (max-width:991px){
+    .OA-matter{width: 100%;margin-left: 0;}
+    .OA-menus{display: none;;height: auto;top:104px}
+    .OA-menus .stair-menus{margin-top: 0;}
+    .OA-message,.header .OA-SetUpThe{display: none;!important;}
+    .header .header-structure .header-user>.OA-user>li.OA-number{display: block;}
+    .matter-tab{width: 100%;left: 0;}
+    .header .header-structure.row{padding-right: 35px;}
+    .header .header-structure .header-logo .header-line,.header .header-structure .header-logo .header-system ul li.OA-skynet{display: none;}
+    .into{display: none;}
+    .information-icon .icon-bc>.from>div{margin-bottom: 30px;float: none;width: 118px;margin-top: 0;}
+    .information-icon .icon-bc{padding-bottom: 54px;}
+    .revamp .information-left{margin-bottom: 0;border-right: 1px solid #e9e9e9;border-bottom: 0;}
+}
+@media (max-width:767px){
+    .information-icon .icon-bc>.from>div{margin-bottom: 0;float: left;width: 90px;margin-top: 5px;}
+    .information-icon .icon-bc{padding-bottom: 0;}
+    .information-icon .icon-bc>.picture{width: 180px;height: 180px;}
+}
+@media only screen and (max-width: 435px){
+    .number-next .row>div span{padding: 0;padding-right: 4px;}
+    .number-next .row>div span{width: 25%}
+    .revamp-right>div.OA-add,.revamp-right>div.OA-search,.revamp-right>div.OA-writing{margin-right: 7px!important;}
+    .revamp  .information .information-left .number .number-1{padding-left: 20px}
+    .revamp  .information .information-left .information-icon .icon-text{padding-left: 5px;}
+    .information-icon .number-text>input,.revamps .information-left .information-icon .icon-img>div{margin-left: 10px;}
+    .information-icon .icon-bc>.picture{width: 120px;height: 120px;}
+    .information-icon .icon-bc>.from>div{margin-bottom: 0;float: left;width: 60px;margin-top: 15px;height: 20px;font-size: 12px;line-height: 20px;}
+    .revamp .information{padding: 0 15px;}
+    .revamp .revamp-one .revamp-right { padding-right: 0;  }
+    .OA-matter .matter-part .matter-tab .tab-part>.row>.tab-right{padding-right: 10px;}
+    .header .header-structure.row {padding-right: 10px;  }
+
+}
